@@ -23,8 +23,7 @@ public class CaptureOmnitureTags {
 	public static String description = null;
 	public static HashMap<String, String> homePageTags = null;
 
-	public static String OmnitureExcelFilePath = EssencePOCUtils
-			.getProjectpath() + "testData/omniture2.xlsx";
+	public static String OmnitureExcelFilePath = "omniture.xlsx";
 	public static WriteLog writelogger = new WriteLog();
 	public static org.apache.log4j.Logger logger = writelogger.getLogger();
 

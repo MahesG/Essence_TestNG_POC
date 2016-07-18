@@ -32,8 +32,7 @@ public class SetupEnvironment {
 	public static String chromeForWin = "./lib/chromedriver.exe";
 	public static String chromeForMac = "./lib/chromedriver_mac";
 
-	private static String EnvironmentPath = EssencePOCUtils.getProjectpath()
-			+ "testData/DomainList1.xls";
+	private static String EnvironmentPath = "DomainList.xls";
 	private static WebDriver driver = null;
 	//public static String chromeDriverPath;
 

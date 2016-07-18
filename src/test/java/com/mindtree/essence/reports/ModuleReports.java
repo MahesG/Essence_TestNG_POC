@@ -21,7 +21,7 @@ public class ModuleReports {
 	 */
 	// public String s="Export_to_CSV";
 	private static String HTMLFolderPath = EssencePOCUtils.getProjectpath()
-			+ "HTMLReports";
+			+ "Reports";
 	public static File ModuleReportFile;
 	public static String popup = "</script><script>function basicPopup(url) { popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes'); }</script>";
 	public static int PASSCOUNT = 0, FAILCOUNT = 0;

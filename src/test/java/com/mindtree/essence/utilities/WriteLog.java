@@ -15,7 +15,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 
 public class WriteLog {
-	public String logfile = "conf/log4j.properties";
+	public String logfile = "log4j.properties";
 	public Logger logger = Logger.getLogger("Essence");
 
 	{

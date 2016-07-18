@@ -271,7 +271,7 @@ public class SEOTagsVerification {
 		metaTagCompConsolidatedSheet.autoSizeColumn(3);
 		try {
 			SimpleDateFormat ft = new SimpleDateFormat ("yyyy_MM_dd-hh_mm_ss");
-			String outputExcelFilePath = EssencePOCUtils.getProjectpath() + "testData/seotagOUTPUT-" + ft.format(new Date()) + ".xls";
+			String outputExcelFilePath = EssencePOCUtils.getProjectpath() + "Reports/seotagOUTPUT-" + ft.format(new Date()) + ".xls";
 			File file = new File(outputExcelFilePath);
 			FileOutputStream outputExcelFile = new FileOutputStream(file);
 			workbook.write(outputExcelFile);
